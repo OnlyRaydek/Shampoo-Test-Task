@@ -1,0 +1,43 @@
+.item {
+  &__counter {
+    display: flex;
+    width: 92px;
+    height: 40px;
+    background: #e2e9f0;
+    border-radius: 30px;
+  }
+
+  &__count {
+    width: 52px;
+    text-align: center;
+  }
+
+  &__count,
+  &__decrease,
+  &__increase {
+    border: none;
+    background-color: transparent;
+  }
+
+  &__button {
+    max-width: 302px;
+    width: 60%;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(261.65deg, #efbb37 -3.95%, #cf9e1f 109.44%);
+    outline: none;
+    transition: box-shadow 0.3s;
+
+    &:hover {
+      cursor: pointer;
+      box-shadow: 0 0 5px rgb(207, 158, 31);
+    }
+
+    &:active {
+      cursor: pointer;
+      background: linear-gradient(261.65deg, #f8cd5e -3.95%, #d8a72a 109.44%);
+      box-shadow: 0 0 10px rgb(207, 158, 31);
+    }
+  }
+}
