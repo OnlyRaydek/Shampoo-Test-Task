@@ -73,7 +73,6 @@ document.addEventListener('click', function(e) {
   }
 });
 
-
 document.addEventListener('click', function(e) {
   const container = e.target;
 
